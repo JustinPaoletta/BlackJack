@@ -1,0 +1,136 @@
+#table {
+    background-color: #017D3C;
+    height: 100vh;
+}
+
+#themeImg {
+    float: left;
+    height: 100px;
+    transform: rotate(-40deg);
+    position: absolute;
+    margin-top: 3vh;
+}
+
+#topContainer {
+    margin-top: 4vh;
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+}
+
+#chipsImg {
+    margin-top: 15vh;
+}
+
+#bjImg {
+    height: 200px;
+    margin-left: .30vw;
+}
+
+#listContainer {
+    background-color: blanchedalmond;
+    padding: .5rem;
+    margin-top: 3vh;
+    border: white solid 4px;
+}
+
+ul {
+    font-size: .8rem;
+    font-weight: 900;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: -3vw;
+}
+
+#deckOfCards {
+    margin-left: -.25vw;
+    margin-top: 44vh;
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+}
+
+.cards {
+    height: 120px;
+    width: 84px;
+}
+
+#instructions {
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    margin-top: 50vh;
+    font-size: 1.4rem;
+    font-family: monospace;
+}
+
+#players {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 6fr 1fr 6fr;
+    margin-top: 90vh;
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#players p {
+    text-align: center;
+    margin-left: -.5vw;
+}
+
+#gameTime {
+    margin-top: 68vh;
+    height: 30vh;
+    width: 100vw;
+    position: absolute;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 6fr 1fr 6fr;
+}
+
+#playerDeck {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#gameButtons {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1;
+}
+
+#hit-button {
+    display: none;
+    background-color: rgb(0, 255, 42);
+}
+
+#stay-button {
+    display: none;
+    background-color: rgba(255, 0, 0, 0.842);
+}
+
+#dealer-button {
+    display: none;
+}
+
+#dealerDeck {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#dealtCard1Back:hover {
+    display: none;
+}
+
+.cards {
+    height: 120px;
+    width: 84px;
+    background-image: url('green.jpg');
+}

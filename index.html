@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>BLACKJACK GAME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BLACKJACK GAME">
+    <meta name="JUSTIN PAOLETTA" content="CODING ASSIGNMENT">
+    <link rel="stylesheet" href="blackjack.css">
+
+</head>
+
+<body>
+
+    <div id="table">
+
+        <img id="themeImg" src="aces.png">
+
+        <div id="topContainer">
+            <div></div>
+            <div>
+                <img id="chipsImg" src="chips.png">
+            </div>
+            <img id="bjImg" src="title.png">
+            <div>
+                <div id="listContainer">
+                    <ul>
+                        <li style="font-size: 2rem;">RULES</li>
+                        <br>
+                        <li>The Goal is To Get The Closest To 21 Without Going Over</li><br>
+                        <li>Click The Deck To Deal A New Hand</li><br>
+                        <li>Click Hit To Draw Another Card / Stay When Done Drawing</li><br>
+                        <li>Click 'Dealers Turn' Button Until Their Turn Finishes</li><br>
+                        <li>The Dealer Will Not Draw Another Card If They Have 17 or More</li><br>
+                        <li>If You Get To 5 Cards And Havent Busted or You Get 21 points You Automatically Win </li><br>
+                        <li>Aces are 11 unless you go over. Then They Will Switch To 1</li><br>
+                        <li>You Can Cheat and View The Dealers Score In The Console (for testing purposes of course)
+                        </li><br>
+                        <li>Finally.. to view your facedown card... hover over it</li>
+                    </ul>
+                </div>
+            </div>
+            <div></div>
+        </div>
+
+        <div id="deckOfCards">
+            <img class="cards" id="deal" src="blue_back.png">
+        </div>
+
+        <div id="players">
+            <p>Player 1</p>
+            <p></p>
+            <p>Dealer</p>
+        </div>
+
+        <div id="gameTime">
+
+            <div id="playerDeck">
+
+                <section></section>
+
+                <img class="cards" id="dealtCard1">
+
+                <img class="cards" id="dealtCard1B">
+
+                <img class="cards" id="dealtCard1C">
+
+                <img class="cards" id="dealtCard1D">
+
+                <img class="cards" id="dealtCard1E">
+
+                <section></section>
+
+            </div>
+
+            <div id="gameButtons">
+
+                <section></section>
+                <button id="hit-button">HIT</button>
+                <button id="stay-button">STAY</button>
+                <button id="dealer-button">DEALERS TURN</button>
+                <section></section>
+
+            </div>
+
+            <div id="dealerDeck">
+
+                <section></section>
+
+                <img class="cards" id="dealtCard2">
+
+                <img class="cards" id="dealtCard2B">
+
+                <img class="cards" id="dealtCard2C">
+
+                <img class="cards" id="dealtCard2D">
+
+                <img class="cards" id="dealtCard2E">
+
+                <section></section>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="blackjack.js"></script>
+
+</body>
+
+</html>
